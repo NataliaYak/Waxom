@@ -3,76 +3,114 @@
 <head>
         <meta charset="utf-8">
         <title>Waxom document</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400&amp;subset=cyrillic" rel="stylesheet">  
+    <link rel="stylesheet" href="css/preset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/icon.css">
 </head>
     <body>        
     <!-- PAGE HEADER-->
     <header class="page-header">
-        <div class="header-block">
-            <div class="logo" title="Waxom">
-                <a class="logo_link" href="index.html">
-                    <img class="logo_img" src="img/logo.svg" alt="Waxom Logo">
+        <div class="container clearfix">
+            <!-- BRAND LOGO -->
+            <div class="logo logo--header">
+                <a class="logo__link" href="index.html">
+                    <img class="logo__img" src="img/logo.svg" alt="Waxom Logo" with="181">
                 </a>
             </div>
-            <nav class="menu">
-                <ul class="menu_list">
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Home</a>
+            <!-- /BRAND LOGO -->
+            <!-- MAIN NAVIGATION -->
+            <nav class="navigation navigation--main">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#">Home</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">About Us</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">About Us</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Portfolio</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Portfolio</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Features</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Features</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Blog</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Blog</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Pricing</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Pricing</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Shortcodes</a>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Shortcodes</a>
                     </li>
-                    <li class="menu_item">
-                        <a class="menu_link" href="#">Contact</a>
-                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="tool_bar">
-                <div class="icon_cart">
-                    <button class="button_cart" type="button" title="Cart">
-                        <img class="cart_icon" src="img/cart.png" alt="Cart">
-                    </button>
-                    <a class="button_cart_link" href="#"></a>
+            <!-- /MAIN NAVIGATION -->
+            <!-- USER TOOLS -->
+            <div class="user-tools clearfix">
+                <!-- CART -->
+                <div class="cart">
+                    <span class="icon icon--emptycart"></span>
+                    <a class="cart__link" href="#"></a>
                 </div>
-                <div class="icon_search">
-                    <button class="button_search" type="button" title="Search">
-                        <img class="search_icon" src="img/search.png" alt="Search">
-                    </button>
-                    <a class="button_search_link" href="#"></a>
+                <!-- /CART -->
+                <!-- SEARCH -->
+                <div class="search">
+                    <span class="icon icon--search"></span>
+                    <a class="search__link" href="#"></a>
                 </div>
+                <!-- /SEARCH -->
             </div>
+            <!-- /USER TOOLS -->
         </div>        
     </header>        
     <!-- /PAGE HEADER -->    
     <!-- PAGE MAIN-->
     <main class="page-main">
-    <h1 class="visually-hidden">
-    About Waxom Company
-    </h1>
+    <h1 class="visually-hidden">About Waxom Company</h1>
+    <!-- PROMO SLIDER -->
+    <section class="promo"><h2 class="visually-hidden">
+    Slider</h2></section>
+    <!-- /PROMO SLIDER -->
     <!-- OFFER SECTION-->
     <section class="offers">
       <h2 class="visually-hidden">
-    Offers</h2>
+          Offers</h2> 
     </section>    
     <!-- /OFFER SECTION -->        
     <!-- SERVICES SECTION-->
     <section class="services">
       <h2 class="visually-hidden">
     Our services</h2>
+    <div class="services services--main">
+        <ul class="services__list container clearfix">
+            <li class="services__item">
+                <a class="servicess__link" href="#">
+                    <h3 class="services__title">Web & App Design</h3>
+                    <p class="services__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </a>
+            </li>
+            <li class="services__item">
+                <a class="services__link" href="#">
+                    <h3 class="services__title">Development</h3>
+                    <p class="services__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </a>
+            </li>
+            <li class="services__item">
+                <a class="services__link" href="#">
+                    <h3 class="services__title">Customization</h3>
+                    <p class="services__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </a>
+            </li>
+            <li class="services__item">
+                <a class="services__link" href="#">
+                    <h3 class="services__title">Marketing</h3>
+                    <p class="services__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                </a>
+            </li>                    
+        </ul>
+    </div> 
+        
+        
+        
+        
     </section>    
     <!-- /SERVICES SECTION -->        
     <!-- REALIZATION SECTION-->
