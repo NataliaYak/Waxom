@@ -1,0 +1,256 @@
+/*  POSTS SECTION  */
+
+.posts {
+  text-align: center;
+  background-color: #fbfaf8;
+    height: 753px;
+  
+}
+
+.posts__wrapper {
+  
+  padding-top: 80px;
+  padding-bottom: 18px;
+    height: 118px;
+
+  
+}
+
+.posts__title {
+  
+  margin: 0 215px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--txt-color-title);
+  
+}
+
+.posts__description {
+  
+  margin: 0 215px;
+  margin-bottom: 17px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--txt-color-plain);
+  
+}
+
+/*  postsblock COMPONENT  */
+
+.postsblock {
+  
+  position: relative;
+  width: 376px;
+  height: 397px;
+  margin: 0 var(--space);
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.postsblock:hover::after {
+  
+  background-color: var(--txt-color-active);
+  animation: backgroundchange 5s linear;
+  
+}
+.postsblock__text {
+  margin: 0;
+    margin-bottom: 33px;
+  padding: 0;
+    height: 112px;
+}
+.postsblock__title {
+  
+  margin: 0;
+  margin-bottom: 14px;
+  padding: 0;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: capitalize;
+  color: var(--txt-color-title);
+  transition-property: color;
+  transition-duration: 0;
+  transition-delay: 1s;
+  transition-timing-function: linear;
+  
+}
+
+.postsblock:hover {
+  
+  color: var(--txt-color-active);
+  animation: backgroundchange 1s linear;
+  animation-fill-mode: both;
+  
+}
+.postsblock__title:hover {    
+  
+  color: var(--txt-color-active);
+  animation: colorchange 1s linear;
+  animation-fill-mode: both;
+}
+.postsblock__description {
+  
+  margin: 0;
+  padding: 0;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--txt-color-plain);
+  
+}
+
+.postsblock__img {
+  
+  position: relative;
+  display: block;
+  height: 250px;
+  
+}
+
+.postsblock__img--foot::after {
+  
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 370px;
+  height: 250px;
+  background-color: transparent;
+  background-image: url("../img/view-post-01.jpg");
+  background-repeat: no-repeat;
+  
+}
+.postsblock__img--keyboard::after {
+  
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 370px;
+  height: 250px;
+  background-color: transparent;
+  background-image: url("../img/view-post-02.jpg");
+  background-repeat: no-repeat;
+  
+}
+.postsblock__img--ship::after {
+  
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 370px;
+  height: 250px;
+  background-color: transparent;
+  background-image: url("../img/view-post-03.jpg");
+  background-repeat: no-repeat;
+  
+}
+.postsblock:hover .postsblock__img .posts_link::after {
+  
+  animation: backgroundchange 1s linear;
+ 
+  
+}
+
+.postsblock__img--foot::after {
+  
+  background-position: 0 0;
+  
+}
+
+.postsblock__img--keyboard::after {
+  
+  background-position: 0 0;
+  
+}
+.postsblock__img--ship::after {
+  
+  background-position: 0 0;
+  
+}
+
+.posts_link {
+    display: block;
+    margin: 0;
+  padding: 0;
+    padding-top: 24px;
+    padding-bottom: 33px;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+    text-decoration: none;
+    text-align: left;
+  color: var(--txt-color-active);
+}
+.posts_arrow {
+    margin-left: 10px;
+}
+
+.posts__slides {
+    display: block;
+    margin: 0;
+    margin-bottom: 78px;
+    margin-top: 40px;
+    padding: 0;
+    height: 22px;
+}
+.public_time {
+  
+  position: absolute;
+  width: 50px;
+  top: 20px;
+  left: 20px;
+  border-radius: 2px;
+  
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  
+  background-color: #363636;
+  color: #ffffff;
+  overflow: hidden;
+  
+}
+.public_time-data {
+  
+  display: block;
+  font-size: 24px;
+  line-height: 35px;
+  font-style: normal;
+  
+}
+
+.public_time-month {
+  
+  display: block;
+  font-style: normal;
+  line-height: 25px;
+  background-color: #252525;
+  
+}

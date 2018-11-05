@@ -1,0 +1,310 @@
+/*  LATESTPROJECT  */
+
+
+.latestprojects,
+.latestprojects_title,
+.latestprojects_description,
+.latestprojects_categories,
+.latestprojects_flex
+.latestprojects_list,
+.latestprojects_projects,
+.container__2,
+.view,
+.view_img,
+.view_header,
+.view_title,
+.view_category {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.latestprojects {
+  
+  padding-top: 80px;
+  padding-bottom: 80px;
+/*    margin-bottom: 80px;*/
+  text-align: center;
+  
+}
+
+.latestprojects .container {
+  
+  position: relative;
+/*  margin-bottom: 40px;*/
+  padding-bottom: 101px;
+}
+
+.latestprojects_title {
+  
+  margin: 0 15px;
+  margin-bottom: 25px;
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: auto;
+  text-transform: capitalize;
+  color: var(--txt-color-title);
+  
+}
+
+.latestprojects_description {
+  
+  margin: 0 15px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: none;
+  color: var(--txt-color-plain);
+  
+}
+
+.latestprojects_categories {
+  
+  padding-top: 26px;
+  padding-bottom: 31px;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  
+}
+
+.latestprojects_filter {
+  
+  display: inline-block;
+  margin: 0 5px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: var(--txt-color-plain);
+  
+}
+
+.latestprojects_filter input[type="radio"] {
+  
+  display: none;
+  
+}
+
+.latestprojects_filter span {
+  
+  display: inline-block;
+  padding: 0 12px;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+
+.latestprojects_filter:hover span,
+.latestprojects_filter input[type="radio"]:checked + span {
+  
+  border-color: #998675;
+  background-color: #998675;
+  color: var(--txt-color-invert);
+  
+}
+
+.latestprojects_list,
+.latestprojects_projects {
+  
+  display: block;
+  list-style: none;
+  
+  
+}
+
+.latestprojects_list {
+  
+  padding-bottom: 50px;
+  
+}
+
+ .latestprojects_flex .latestprojects_list {
+ 
+  position: relative;
+margin: 0;
+     
+}
+
+.latestprojects_projects {
+    position: relative;
+   margin: 15px; 
+    width: 370px;
+}
+
+.btn-filter {
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  
+}
+
+
+/*  /LATESTPROJECT  */
+
+
+
+/*  VIEW  */
+
+
+.view {
+  
+  position: relative;
+  display: block;
+  height: 339px;
+  overflow: hidden;
+  
+}
+
+.view_img {
+  
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.view_header {
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  background-color: #fbfaf8;
+  
+  text-align: left;
+  
+}
+
+.view_header::before {
+  
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 20px;
+  z-index: 1;
+  
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-width: 10px;
+  border-bottom-color: #fbfaf8;
+  
+}
+
+.view_title {
+  
+  margin-bottom: 13px;
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--txt-color-invert);
+  
+}
+
+.view_category {
+  
+  margin-bottom: 3px;
+  
+  font-size: 14px;
+  line-height: 14px;
+  color: #d1d1d1;
+  
+}
+
+.latestprojects_projects:hover .view_header {
+  
+  background-color: #362f2d;
+  
+}
+
+.latestprojects_projects:hover .view_header::before {
+  
+  border-bottom-color: #362f2d;
+  
+}
+
+.latestprojects_projects:hover .view_title {
+  
+  color: var(--txt-color-invert);
+  
+}
+
+.latestprojects_projects:hover .view_category {
+  
+  color: var(--txt-color-active);
+  
+}
+
+.view_overlay {
+  
+  position:absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(17, 17, 17, 0.7);
+  overflow: hidden;
+  
+}
+
+.icon-search-1::before {
+  
+ transform: scaleX(-1);
+  
+}
+
+.view_link, 
+.view_zoom {
+  
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--txt-color-invert);
+  cursor: pointer;
+  
+}
+
+.view_link:hover, 
+.view_zoom:hover {
+  
+  color: var(--txt-color-active);
+  
+}
+
+.latestprojects_projects:hover .view_overlay {
+  
+  
+    
+bottom: 100px;
+  
+}
+
+.view_overlay::before {
+  
+  content: "";
+  display:inline-block;
+  max-width: 0px;
+  height: 100%;
+  vertical-align: middle;
+
+  
+}

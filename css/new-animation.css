@@ -1,0 +1,49 @@
+/*  ANIMATION  */
+
+@keyframes iconchange {
+  
+  from {
+    
+    opacity: 1;
+    
+  }
+  
+  50% {
+    
+    opacity: 0;
+    
+  }
+  
+  to {
+    
+    opacity: 1;
+    
+  }
+  
+}
+
+@keyframes backgroundchange {
+  
+  from {
+    
+    background-color: #f1eee9;
+     
+  }
+  
+  to {
+    
+    background-color: #362f2d;
+    
+  }
+  
+}
+@keyframes colorchange {
+    from { 
+        color:var(--txt-color-title);
+    }
+    to {
+    
+    color:var(--txt-color-active);
+    
+  }
+}

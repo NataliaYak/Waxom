@@ -1,0 +1,25 @@
+/*  PARTNERS SECTION  */
+
+.partners {
+  text-align: center;
+  background-color: #fbfaf8;
+  min-height: 210px;
+  background-color: #000000;
+  background-image: url("../img/partners-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: var(--txt-color-invert);
+  position: relative;
+}
+
+.partners_wrapper {
+   padding-top: 241px;
+  padding-bottom: 239px;
+  background-image: 
+    url("../img/partners-sprite.png");
+  background-position: center;
+  background-repeat: no-repeat; 
+    position: relative;
+}
+

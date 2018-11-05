@@ -1,0 +1,130 @@
+/*  LAYOUT  */
+
+html, 
+body {
+  
+  min-width: var(--base-width);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.page-header {
+  
+  position: relative;
+  padding-top: 40px;
+  margin-bottom: -98.5px;
+  z-index: 1;
+  
+}
+
+.logo--header, 
+.navigation--main, 
+.user-tools {
+  
+  float: left;
+  
+}
+
+.user-tools {
+  
+  width: 70px;
+  margin: 0 var(--space);
+  padding-top: 15px;
+  
+}
+
+.user-tools .cart {
+  
+  float: left;
+  
+}
+
+.user-tools .search {
+  
+  float: right;
+  
+}
+
+.promo {
+  
+  min-height: 600px;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("../img/section-one.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: var(--txt-color-invert);
+  
+}
+
+.services {
+  
+  padding: 80px 0;
+  background-color: var(--txt-color-invert);
+  
+}
+
+.services .container {
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.posts__2 {
+  
+  padding: 0;
+  background-color: var(--txt-color-invert);
+  
+}
+
+.posts__2 .container{
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.latestprojects_flex {
+  
+  padding: 0;
+  background-color: var(--txt-color-invert);
+  
+}
+
+.latestprojects_flex .latestprojects_list {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.summary {
+  
+  padding: 0;
+  background-color: var(--txt-color-invert);
+  
+}
+
+.summary .container{
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+.copyright {
+  
+  padding: 0;
+  background-color: var(--txt-color-invert);
+  
+}
+
+.copyright .container{
+  
+  display: flex;
+  flex-direction: row;
+  
+}
